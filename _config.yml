@@ -1,0 +1,40 @@
+# Setup
+title: jcchavezs
+tagline: thoughts but mainly rants
+description: Personal blog about software engineering and things I learn along the way.
+url: "https://jcchavezs.github.io"
+baseurl: ""
+paginate: 5
+permalink: pretty
+
+github_username: jcchavezs
+
+# Plugins
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Author (used by jekyll-seo-tag and post metadata)
+author:
+  name: Jose Carlos Chavez
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Replace this value and uncomment to enable Google Analytics tracking
+# ga_analytics: UA-000000-0
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - Makefile
+  - vendor
