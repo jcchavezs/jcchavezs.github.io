@@ -1,13 +1,21 @@
 source "https://rubygems.org"
 
-# Pins Jekyll and all plugins to the exact versions GitHub Pages runs
-# server-side, so local/CI builds match the published site.
-gem "github-pages", "~> 232", group: :jekyll_plugins
+# Modern Jekyll. Runs on Ruby 4; built and validated in CI.
+gem "jekyll", "~> 4.3"
+
+# Poole theme plugins
+gem "jekyll-gist"
+gem "jekyll-paginate"
+gem "jekyll-sitemap"
+gem "jekyll-seo-tag"
 
 # Validates the built site in CI (broken links, missing images, etc.)
 gem "html-proofer", "~> 5.0"
 
-# Needed to run `jekyll serve` on Ruby 3.0+ (no longer a default gem).
+# Ruby 3.4+ / 4.x no longer ship these as default gems; Jekyll needs them.
+gem "csv"
+gem "base64"
+gem "logger"
 gem "webrick"
 
 # Windows and JRuby do not include zoneinfo files, so bundle the tzinfo-data gem.
