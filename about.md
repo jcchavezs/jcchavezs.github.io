@@ -6,7 +6,7 @@ permalink: /about/
 
 ![me]({{ site.baseurl }}/images/jcchavezs.jpg)
 
-Hi, I'm José Carlos Chávez. I am Peruvian and I work as a visiting Security Engineer @ Okta.
+Hi, I'm José Carlos Chávez. I am Peruvian and I work as a *visiting* Security Engineer @ Okta.
 
 - [Linkedin](https://www.linkedin.com/in/jcchavezs)
 - [Github](https://github.com/jcchavezs)
